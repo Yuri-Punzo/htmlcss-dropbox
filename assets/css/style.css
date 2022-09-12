@@ -10,6 +10,19 @@ body {
 
 /* #region utility */
 
+.end{
+    text-align: end;
+}
+
+.debug{
+    background-color: indigo;
+}
+
+.debug_box{
+    height: 820px;
+    width: 100%;
+}
+
 .clearfix::after{
     content: "";
     display: table;
@@ -72,3 +85,26 @@ body {
 
 /* #endregion utility */
 
+#site_header{
+    width: 100%;
+    position: fixed;
+    background-color: white;
+}
+
+.small_logo{
+    max-width: 100%;
+    padding: 27px;
+    vertical-align: middle;
+}
+
+a{
+    vertical-align: middle;
+}
+
+.header_links{
+    padding: 27px;
+}
+
+.start{
+    margin: 27px;
+}
