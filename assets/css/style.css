@@ -150,13 +150,14 @@ h1 {
     width: 69%;
 }
 
-.free_trial {
+.jumbo_box > .free_trial {
     background-color: #0061ff;
     color: white;
-    border: 0;
+    font-family: 'Open Sans', sans-serif;
+    border: none;
     font-size: 16px;
     padding: 10px 16px;
-    margin: 50px 0 30px 0;
+    margin: 30px 0 30px 0;
 }
 
 .fa-arrow-down {
@@ -209,10 +210,12 @@ h2 {
     margin: 30px;
 }
 
-.free_trial{
+.card_main > .free_trial{
     font-family: 'Open Sans', sans-serif;
     border: none;
     background-color: #0061ff;
+    color: white;
+    margin: 50px 0 24px 0;
     padding: 10px 30px;
     font-size: 14px;
 }
