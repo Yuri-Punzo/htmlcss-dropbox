@@ -182,8 +182,8 @@ h2 {
 
 .card_header {
     align-items: center;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
 }
 
 .fa-user,
@@ -193,14 +193,14 @@ h2 {
 }
 
 .sub {
-    margin-bottom: 1px solid black;
+    margin-bottom: 1px solid lightgray;
 }
 
 .spazio{
     margin: 40px 50px 40px 0;
-    border-bottom: 1px solid black;
-    border-left: 1px solid black;
-    border-right: 1px solid black;
+    border-bottom: 1px solid lightgray;
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
 }
 
 .card_main{
