@@ -167,7 +167,7 @@ h1 {
 }
 
 .box {
-    width: 52%;
+    width: 53%;
     margin: auto;
 }
 
@@ -182,7 +182,8 @@ h2 {
 
 .card_header {
     align-items: center;
-    border: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
 }
 
 .fa-user,
@@ -197,3 +198,13 @@ h2 {
 
 .spazio{
     margin: 40px 50px 40px 0;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.card_main{
+    height: 800px;
+    margin: 30px;
+
+}
