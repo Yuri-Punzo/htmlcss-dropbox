@@ -123,7 +123,7 @@ img {
 .start {
     background-color: #0061ff;
     color: white;
-    border: 0;
+    border: none;
     font-size: 16px;
     padding: 6px 15px;
     margin: 19px 5px;
@@ -181,7 +181,6 @@ h2 {
 
 .card_header {
     align-items: center;
-    border-top: 1px solid lightgray;
     border-bottom: 1px solid lightgray;
 }
 
@@ -200,9 +199,7 @@ h2 {
 
 .spazio{
     margin: 40px 50px 40px 0;
-    border-bottom: 1px solid lightgray;
-    border-left: 1px solid lightgray;
-    border-right: 1px solid lightgray;
+    border: 1px solid lightgray;
 }
 
 .card_main{
