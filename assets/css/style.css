@@ -156,7 +156,7 @@ h1 {
     border: 0;
     font-size: 16px;
     padding: 10px 16px;
-    margin: 30px 0;
+    margin: 50px 0 30px 0;
 }
 
 .fa-arrow-down {
@@ -184,7 +184,10 @@ h2 {
     border-bottom: 1px solid lightgray;
 }
 
-.fa-user,
+.sub > .fa-user{
+    padding: 12px 4px 12px 0;
+}
+
 .fa-users,
 .fa-building {
     padding: 12px 4px 12px 0;
@@ -202,7 +205,7 @@ h2 {
 }
 
 .card_main{
-    height: 800px;
+    height: 900px;
     margin: 30px;
 }
 
@@ -210,7 +213,8 @@ h2 {
     font-family: 'Open Sans', sans-serif;
     border: none;
     background-color: #0061ff;
-    padding: 12px;
+    padding: 10px 30px;
+    font-size: 14px;
 }
 
 .border_bottom{
@@ -222,11 +226,23 @@ h2 {
     color: #0061ff;
 }
 
+.card_main > h3{
+    margin-bottom: 16px;
+}
+
+.price{
+    margin-bottom: 8px;
+}
+
+.period{
+    margin-bottom: 35px;
+}
+
+
+
 .fa-check{
     color: #0061ff;
-    font-size: 20px;
-    float: left;
-    padding-bottom: 30px;
+    font-size: 16px;
 }
 
 .card_main > h4{
