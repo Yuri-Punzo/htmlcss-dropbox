@@ -39,6 +39,12 @@ button {
     flex-direction: row;
 }
 
+.flex_column {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
 .col_1 {
     width: calc((100% / 12) * 1);
 }
@@ -158,4 +164,43 @@ h1 {
 .fa-arrow-down{
     margin-top: 65px;
     font-size: 50px;
+}
+
+.box{
+    width: 50%;
+    margin: auto;
+}
+
+h2{
+    margin: 120px 20px 50px 0;
+    font-size: 40px;
+}
+
+.checkbox{
+    /* proveremo a dargli la forma giusta */
+}
+
+.card_header{
+    margin-top: 40px;
+    margin-right: 20px;
+    align-items: center;
+    
+}
+
+.fa-user,
+.fa-users,
+.fa-building{
+    margin: 12px 4px 12px 0;
+}
+
+.sub{
+    padding: 8px 91px;
+    border: 1px solid black;
+}
+
+.card_main{
+    margin-left: 10px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
 }
