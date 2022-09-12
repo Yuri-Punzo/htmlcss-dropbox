@@ -112,14 +112,12 @@ img {
     vertical-align: middle;
 }
 
-a {
-    vertical-align: middle;
-}
-
 .header_links {
     text-decoration: none;
     color: black;
     margin: 20px;
+    vertical-align: middle;
+    
 }
 
 .start {
@@ -128,7 +126,7 @@ a {
     border: 0;
     font-size: 16px;
     padding: 6px 15px;
-    margin: 25px 5px;
+    margin: 19px 5px;
 }
 
 .jumbo {
@@ -206,5 +204,31 @@ h2 {
 .card_main{
     height: 800px;
     margin: 30px;
+}
 
+.free_trial{
+    font-family: 'Open Sans', sans-serif;
+    border: none;
+    background-color: #0061ff;
+    padding: 12px;
+}
+
+.border_bottom{
+    padding-bottom: 40px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.card_main > a {
+    color: #0061ff;
+}
+
+.fa-check{
+    color: #0061ff;
+    font-size: 20px;
+    float: left;
+    padding-bottom: 30px;
+}
+
+.card_main > h4{
+    margin: 90px 0 40px 5px;
 }
