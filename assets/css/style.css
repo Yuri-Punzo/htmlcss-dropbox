@@ -8,7 +8,13 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-/* #region Utility */
+/* #region utility */
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
 
 .flex{
     display: flex;
@@ -64,8 +70,5 @@ body {
     width: calc((100% / 12) * 12);
 }
 
-.clearfix::after{
-    content: "";
-    display: table;
-    clear: both;
-}
+/* #endregion utility */
+
