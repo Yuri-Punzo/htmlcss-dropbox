@@ -296,7 +296,46 @@ h3 {
     font-size: 23px;
 }
 
-.operations_margin{
+.operations_margin {
     margin-right: 15px;
     margin-bottom: 30px;
+}
+
+.designit,
+.asu,
+.uof,
+.topps,
+.wbr,
+.hearst_corp,
+.lonely_planet,
+.clear_channel {
+    background-color: blue;
+    width: 50%;
+}
+
+.free_trial_back {
+    background-color: #b4d0e7;
+}
+
+.start_free-trial {
+    border: none;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    padding: 8px 30px;
+    margin: 130px 100px;
+}
+
+.call_to_action{
+    color: #61082b;
+    margin-bottom: 120px;
+}
+
+.border_top_bot{
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+.faq_spacing {
+    padding: 40px 0;
 }
