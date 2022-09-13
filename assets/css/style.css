@@ -326,16 +326,47 @@ h3 {
     margin: 130px 100px;
 }
 
-.call_to_action{
+.call_to_action {
     color: #61082b;
     margin-bottom: 120px;
 }
 
-.border_top_bot{
+.border_top_bot {
     border-top: 1px solid gray;
     border-bottom: 1px solid gray;
 }
 
 .faq_spacing {
     padding: 40px 0;
+}
+
+#site_footer {
+    height: 60vh;
+    background-color: black;
+    color: white;
+    margin-top: 150px;
+}
+
+.footer_top,
+.footer_bottom {
+    margin: auto;
+    width: 65%;
+}
+
+.col {
+    flex-basis: 230px;
+    justify-content: center;
+}
+
+.col>h3 {
+    margin: 100px 0 20px 50px;
+}
+
+.col>div {
+    margin: 10px 0 10px 50px;
+}
+
+.border_top{
+    margin: auto;
+    border-top: 1px solid white;
 }
