@@ -279,19 +279,28 @@ h2 {
     font-size: 14px;
 }
 
-.col_5 > h3 {
+.col_5>h3 {
     font-size: 23px;
     margin: 50px 0 10px 50px;
 }
 
-.col_5 > p {
+.col_5>p {
     margin-left: 50px;
 }
 
-.partner{
+.partner {
     text-decoration: none;
     color: black;
     margin-left: 50px;
     border: 1px solid black;
     padding: 12px 14px;
+}
+
+h3 {
+    font-size: 23px;
+}
+
+.operations_margin{
+    margin-right: 15px;
+    margin-bottom: 30px;
 }
