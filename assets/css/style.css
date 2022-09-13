@@ -12,6 +12,10 @@ button {
     font-family: 'Open Sans', sans-serif;
 }
 
+img {
+    max-width: 100%;
+}
+
 /* #region utility */
 
 .end {
@@ -103,10 +107,6 @@ button {
     background-color: white;
 }
 
-img {
-    max-width: 100%;
-}
-
 .small_logo {
     padding: 25px;
     vertical-align: middle;
@@ -116,8 +116,7 @@ img {
     text-decoration: none;
     color: black;
     margin: 20px;
-    vertical-align: middle;
-    
+    vertical-align: middle;    
 }
 
 .start {
@@ -153,7 +152,6 @@ h1 {
 .jumbo_box > .free_trial {
     background-color: #0061ff;
     color: white;
-    font-family: 'Open Sans', sans-serif;
     border: none;
     font-size: 16px;
     padding: 10px 16px;
@@ -175,10 +173,6 @@ h2 {
     font-size: 40px;
 }
 
-.checkbox {
-    /* proveremo a dargli la forma giusta */
-}
-
 .card_header {
     align-items: center;
     border-bottom: 1px solid lightgray;
@@ -188,8 +182,12 @@ h2 {
     padding: 12px 4px 12px 0;
 }
 
-.fa-users,
-.fa-building {
+.sub > .fa-users {
+    padding: 12px 4px 12px 0;
+
+}
+
+.sub > .fa-building {
     padding: 12px 4px 12px 0;
 }
 
@@ -197,18 +195,21 @@ h2 {
     margin-bottom: 1px solid lightgray;
 }
 
-.spazio{
+.border{
+    border: 1px solid lightgray;    
+}
+
+.spacing{
     margin: 40px 50px 40px 0;
-    border: 1px solid lightgray;
 }
 
 .card_main{
     height: 900px;
     margin: 30px;
+    font-size: 14px;
 }
 
 .card_main > .free_trial{
-    font-family: 'Open Sans', sans-serif;
     border: none;
     background-color: #0061ff;
     color: white;
@@ -228,17 +229,17 @@ h2 {
 
 .card_main > h3{
     margin-bottom: 16px;
+    font-size: 23px;
 }
 
 .price{
-    margin-bottom: 8px;
+    margin-bottom: 8px;    
 }
 
 .period{
     margin-bottom: 35px;
+    color: grey;
 }
-
-
 
 .fa-check{
     color: #0061ff;
