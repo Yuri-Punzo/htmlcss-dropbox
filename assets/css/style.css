@@ -49,6 +49,10 @@ img {
     flex-direction: column;
 }
 
+.flex_grow{
+    flex-grow: 1;
+}
+
 .col_1 {
     width: calc((100% / 12) * 1);
 }
@@ -167,6 +171,10 @@ h1 {
     width: 53%;
     margin: auto;
     margin-top: 160px;
+}
+
+.mini_box{
+    margin-right: 250px;
 }
 
 h2 {
@@ -301,6 +309,10 @@ h3 {
     margin-bottom: 30px;
 }
 
+.discover{
+    margin-bottom: 150px;
+}
+
 .designit,
 .asu,
 .uof,
@@ -323,12 +335,17 @@ h3 {
     background-color: white;
     color: black;
     padding: 8px 30px;
-    margin: 130px 100px;
+    margin: 130px 55px;
 }
 
 .call_to_action {
     color: #61082b;
     margin-bottom: 120px;
+}
+
+.free_trial_back>.box{
+    width: 53%;
+    margin: auto;
 }
 
 .border_top_bot {
@@ -347,10 +364,18 @@ h3 {
     margin-top: 150px;
 }
 
-.footer_top,
-.footer_bottom {
+.footer_top{
     margin: auto;
     width: 65%;
+}
+
+.footer_bottom {
+    height: 100px;
+    width: 120px;
+    margin-top: 100px;
+    margin-left: 380px;
+    padding-top: 50px;
+    color: gray;
 }
 
 .col {
@@ -367,6 +392,13 @@ h3 {
 }
 
 .border_top{
-    margin: auto;
     border-top: 1px solid white;
+}
+
+
+
+.square{
+    width: 300px;
+    height: 300px;
+    background-color: indigo;
 }
