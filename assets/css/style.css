@@ -49,10 +49,6 @@ img {
     flex-direction: column;
 }
 
-.flex_grow{
-    flex-grow: 1;
-}
-
 .col_1 {
     width: calc((100% / 12) * 1);
 }
@@ -401,4 +397,9 @@ h3 {
     width: 300px;
     height: 300px;
     background-color: indigo;
+}
+
+.middle_box{
+    flex-basis: 100px;
+    flex-grow: 1;
 }
