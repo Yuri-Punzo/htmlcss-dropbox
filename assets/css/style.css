@@ -209,9 +209,15 @@ h2 {
 }
 
 .card_main {
-    height: 850px;
     margin: 30px;
     font-size: 14px;
+}
+
+.card_1_padding{
+    padding-bottom: 171px;
+}
+.card_3_padding{
+    padding-bottom: 133px;
 }
 
 .card_main_horizontal {
@@ -354,7 +360,6 @@ h3 {
 }
 
 #site_footer {
-    height: 60vh;
     background-color: black;
     color: white;
     margin-top: 150px;
@@ -362,20 +367,20 @@ h3 {
 
 .footer_top{
     margin: auto;
-    width: 65%;
+    width: 70%;
 }
 
 .footer_bottom {
     height: 100px;
     width: 120px;
     margin-top: 100px;
-    margin-left: 380px;
+    margin-left: 333px;
     padding-top: 50px;
     color: gray;
 }
 
 .col {
-    flex-basis: 230px;
+    flex-basis: 250px;
     justify-content: center;
 }
 
@@ -393,13 +398,14 @@ h3 {
 
 
 
+
 .square{
     width: 300px;
     height: 300px;
     background-color: indigo;
 }
 
-.middle_box{
-    flex-basis: 100px;
-    flex-grow: 1;
+.flex_basis{
+    flex-shrink: 1;
+    flex-basis: 33vw;
 }
