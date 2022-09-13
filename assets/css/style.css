@@ -204,7 +204,7 @@ h2 {
 }
 
 .card_main{
-    height: 900px;
+    height: 850px;
     margin: 30px;
     font-size: 14px;
 }
@@ -215,6 +215,15 @@ h2 {
     color: white;
     margin: 50px 0 24px 0;
     padding: 10px 30px;
+    font-size: 14px;
+}
+
+.card_main > .contact_us{
+    border: none;
+    background-color: #0061ff;
+    color: white;
+    margin: 50px 0 24px 0;
+    padding: 10px 80px;
     font-size: 14px;
 }
 
