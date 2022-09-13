@@ -341,7 +341,8 @@ hr{
     margin-right: 30px;
 }
 
-.client_logo {    
+.client_logo { 
+    filter: invert(100%);   
     width: 50%;
     align-self: center;
     margin: auto;    
