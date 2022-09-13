@@ -49,7 +49,7 @@ img {
     flex-direction: column;
 }
 
-.flex_no_wrap{
+.flex_no_wrap {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
@@ -175,7 +175,7 @@ h1 {
     margin-top: 160px;
 }
 
-.mini_box{
+.mini_box {
     margin-right: 250px;
 }
 
@@ -219,10 +219,11 @@ h2 {
     font-size: 14px;
 }
 
-.card_1_padding{
+.card_1_padding {
     padding-bottom: 171px;
 }
-.card_3_padding{
+
+.card_3_padding {
     padding-bottom: 133px;
 }
 
@@ -317,73 +318,73 @@ h3 {
     margin-bottom: 30px;
 }
 
-.discover{
+.discover {
     margin-bottom: 150px;
 }
 
-.square{
+.square {
     width: 317px;
     height: 317px;
 }
 
-.lite_background{
+.lite_background {
     background-color: #f5f5f5;
 }
 
-hr{
+hr {
     width: 20%;
     margin: 40px 0;
 }
 
-.margin{
+.margin {
     margin-top: 50px;
     margin-left: 50px;
     margin-right: 30px;
 }
 
-.client_logo { 
-    filter: invert(100%);   
-    width: 50%;
-    align-self: center;
-    margin: auto;    
-}
-
-.client_logo_big{
+.client_logo {
+    filter: invert(100%);
     width: 50%;
     align-self: center;
     margin: auto;
 }
 
-.designit{
+.client_logo_big {
+    width: 50%;
+    align-self: center;
+    margin: auto;
+}
+
+.designit {
     background-color: #a2d39b;
     border: 15px solid #d1e9cd;
 }
 
-.asu{
+.asu {
     background-color: #61082b
 }
 
-.uof{
+.uof {
     background-color: #0093ce
 }
 
-.topps{
+.topps {
     background-color: #ff1c1c
 }
 
-.wbr{
+.wbr {
     background-color: #d5001f
 }
 
-.hearst_corp{
+.hearst_corp {
     background-color: #b4d0e7
 }
 
-.lonely_planet{
+.lonely_planet {
     background-color: #0d2481
 }
 
-.clear_channel{
+.clear_channel {
     background-color: #ffd830
 }
 
@@ -405,7 +406,7 @@ hr{
     margin-bottom: 120px;
 }
 
-.free_trial_back>.box{
+.free_trial_back>.box {
     width: 53%;
     margin: auto;
 }
@@ -425,7 +426,7 @@ hr{
     margin-top: 150px;
 }
 
-.footer_top{
+.footer_top {
     margin: auto;
     width: 70%;
 }
@@ -452,6 +453,6 @@ hr{
     margin: 10px 0 10px 50px;
 }
 
-.border_top{
+.border_top {
     border-top: 1px solid white;
 }
