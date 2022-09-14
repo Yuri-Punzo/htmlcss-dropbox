@@ -343,8 +343,7 @@ h3 {
 }
 
 .square {
-    width: 317px;
-    height: 317px;
+    aspect-ratio: 1 / 1;
 }
 
 .lite_background {
