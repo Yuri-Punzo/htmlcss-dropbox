@@ -234,21 +234,17 @@ h2 {
 }
 
 .card_main>.free_trial {
-    border: none;
     background-color: #0061ff;
     color: white;
-    margin: 50px 0 24px 0;
+    text-decoration: none;
     padding: 10px 30px;
-    font-size: 14px;
 }
 
 .card_main>.contact_us {
-    border: none;
     background-color: #0061ff;
     color: white;
-    margin: 50px 0 24px 0;
     padding: 10px 80px;
-    font-size: 14px;
+    text-decoration: none;
 }
 
 .border_bottom {
@@ -284,11 +280,10 @@ h2 {
 }
 
 .contact_us {
-    border: none;
+    text-decoration: none;
     background-color: #0061ff;
     color: white;
     padding: 10px 50px;
-    font-size: 14px;
 }
 
 .contact_us:hover {
