@@ -351,6 +351,10 @@ h3 {
     margin-bottom: 30px;
 }
 
+.operations_margin>p{
+    margin-top: 30px;
+}
+
 .discover {
     margin-bottom: 150px;
 }
