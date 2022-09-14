@@ -486,6 +486,6 @@ hr {
     display: none;
 }
 
-.accordion:hover + .panel {
+.accordion:hover+.panel {
     display: block;
 }
