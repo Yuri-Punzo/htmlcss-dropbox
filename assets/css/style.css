@@ -293,6 +293,21 @@ h2 {
     font-size: 14px;
 }
 
+.contact_us:hover{
+    background-color: #2377ff;
+    cursor: pointer;    
+}
+
+.free_trial:hover{
+    background-color: #2377ff;
+    cursor: pointer;
+}
+
+.start:hover{
+    background-color: #2377ff;
+    cursor: pointer;    
+}
+
 .col_5>h3 {
     font-size: 23px;
     margin: 50px 0 10px 50px;
@@ -308,6 +323,10 @@ h2 {
     margin-left: 50px;
     border: 1px solid black;
     padding: 12px 14px;
+}
+
+.partner:hover{
+    color: rgb(85, 85, 85);
 }
 
 h3 {
@@ -393,13 +412,17 @@ hr {
     background-color: #b4d0e7;
 }
 
-.start_free-trial {
+.start_free_trial {
     border: none;
     text-decoration: none;
     background-color: white;
     color: black;
     padding: 8px 30px;
     margin: 130px 55px;
+}
+
+.start_free_trial:hover{
+    color: rgb(85, 85, 85);
 }
 
 .call_to_action {
