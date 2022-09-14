@@ -193,8 +193,6 @@ h2 {
     height: 95%;
 }
 
-
-
 .card_header {
     justify-content: center;
     border-bottom: 1px solid lightgray;
@@ -284,6 +282,10 @@ h2 {
 .period {
     margin-bottom: 35px;
     color: grey;
+}
+
+.card_txt_margin_bot{
+    margin-bottom: 15px;
 }
 
 .fa-check {
