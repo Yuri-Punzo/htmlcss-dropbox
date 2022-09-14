@@ -121,7 +121,7 @@ img {
 .header_links {
     text-decoration: none;
     color: black;
-    margin: 20px;
+    padding: 26px 20px;
     vertical-align: middle;
 }
 
