@@ -56,6 +56,10 @@ img {
     flex-direction: row;
 }
 
+.space_around{
+    justify-content: space-between;
+}
+
 .col_1 {
     width: calc((100% / 12) * 1);
 }
