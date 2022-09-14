@@ -127,6 +127,10 @@ img {
     vertical-align: middle;
 }
 
+.header_links:hover{
+    border-bottom: 2px solid black;
+}
+
 .start {
     background-color: #0061ff;
     color: white;
