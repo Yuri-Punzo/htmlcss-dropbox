@@ -343,6 +343,7 @@ h3 {
 }
 
 .square {
+    width: calc((100% / 12) * 6);
     aspect-ratio: 1 / 1;
 }
 
