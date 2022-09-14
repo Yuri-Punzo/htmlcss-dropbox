@@ -62,8 +62,12 @@
         <div class="box">
             <span id="go_to_plans"></span>
             <h2>Trova il piano business che fa per te</h2>
-            <input type="checkbox">Fatturazione Mensile</input>
-            <input type="checkbox">Fatturazione Annuale</input>
+            <form action="/action_page.php">
+                <input type="radio" id="montly" name="choose_plan" value="montly">
+                <label for="montly">Fatturazione Mensile</label>
+                <input type="radio" id="annual" name="choose_plan" value="annual">
+                <label for="annual">Fatturazione Annuale</label>
+            </form>
             <div class="row flex">
                 <div class="col_4">
                     <div class="container border spacing">
