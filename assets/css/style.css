@@ -329,8 +329,10 @@ h2 {
 }
 
 .partner {
+    display: inline-block;
     text-decoration: none;
     color: black;
+    margin-top: 25px;
     margin-left: 50px;
     border: 1px solid black;
     padding: 12px 14px;
