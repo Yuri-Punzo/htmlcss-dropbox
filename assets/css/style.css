@@ -19,6 +19,11 @@ img {
     align-items: center;
 }
 
+.start{
+    justify-content: start;
+    align-items: center;
+}
+
 .debug {
     background-color: indigo;
 }
@@ -123,7 +128,7 @@ img {
 .header_links {
     text-decoration: none;
     color: black;
-    padding: 26px 20px;
+    padding: 25px 20px;
     vertical-align: middle;
 }
 
@@ -131,7 +136,7 @@ img {
     border-bottom: 2px solid black;
 }
 
-.start {
+.inizia {
     background-color: #0061ff;
     color: white;
     padding: 6px 15px;
@@ -325,7 +330,7 @@ h2 {
     cursor: pointer;
 }
 
-.start:hover {
+.inizia:hover {
     background-color: #2377ff;
     cursor: pointer;
 }
