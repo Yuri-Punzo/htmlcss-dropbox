@@ -191,6 +191,12 @@ h2 {
     width: 30%;
 }
 
+.card_height{
+    height: 95%;
+}
+
+
+
 .card_header {
     align-items: center;
     border-bottom: 1px solid lightgray;
