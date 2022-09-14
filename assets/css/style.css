@@ -19,7 +19,8 @@ img {
 /* #region utility */
 
 .end {
-    text-align: end;
+    justify-content: end;
+    align-items: center;
 }
 
 .debug {
@@ -128,8 +129,6 @@ img {
 .start {
     background-color: #0061ff;
     color: white;
-    border: none;
-    font-size: 16px;
     padding: 6px 15px;
     margin: 19px 5px;
 }
